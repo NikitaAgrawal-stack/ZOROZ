@@ -1,0 +1,54 @@
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 40%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .spacing {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+} 
+
+
+
+
+
+
+
+/*
+
+     fa-fw
+
+*/
+
+
+/*Fixed Width Icons
+ -------------------------*/
+.#{$fa-css-prefix}-fw {
+  width: (18em / 14);
+  text-align: center;
+}
